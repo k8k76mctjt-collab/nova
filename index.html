@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nova</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<div class="top">
+    <h1>Nova</h1>
+</div>
+
+<div class="search">
+
+<input 
+id="url"
+placeholder="Search or enter website"
+/>
+
+<button onclick="openSite()">
+Go
+</button>
+
+</div>
+
+
+<div id="links">
+
+<button onclick="quick('https://google.com')">
+Google
+</button>
+
+<button onclick="quick('https://youtube.com')">
+YouTube
+</button>
+
+<button onclick="quick('https://wikipedia.org')">
+Wikipedia
+</button>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
