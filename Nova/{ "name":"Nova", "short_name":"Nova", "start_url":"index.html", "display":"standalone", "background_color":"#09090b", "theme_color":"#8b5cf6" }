@@ -1,0 +1,8 @@
+{
+"name":"Nova",
+"short_name":"Nova",
+"start_url":"index.html",
+"display":"standalone",
+"background_color":"#09090b",
+"theme_color":"#8b5cf6"
+}
