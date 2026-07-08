@@ -1,0 +1,25 @@
+function openSite(){
+
+let text =
+document.getElementById("url").value;
+
+
+if(!text.startsWith("http")){
+
+text =
+"https://www.google.com/search?q="
++ encodeURIComponent(text);
+
+}
+
+
+window.location.href=text;
+
+}
+
+
+function quick(site){
+
+window.location.href=site;
+
+}
